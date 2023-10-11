@@ -286,7 +286,7 @@ where
 	M: Get<Multiplier>,
 {
 	fn convert(_previous: Multiplier) -> Multiplier {
-		Self::min()
+        Self::max()
 	}
 }
 
